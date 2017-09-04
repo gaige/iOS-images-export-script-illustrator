@@ -11,12 +11,68 @@ var selectedImageExportOptions = {};
 
 var iosAppIconExportOptions = [
     {
-        name: "-29@2.png",
+        name: "-20@1.png",
+        size: 20,
+        type: "iPad Notification, 7-11",
+        idiom: "ipad",
+        sizeJSON: "20x20",
+        scale: "1x"
+    },
+    {
+        name: "-ipad-20@2.png",
+        size: 40,
+        type: "iPad Notification, 7-11",
+        idiom: "ipad",
+        sizeJSON: "20x20",
+        scale: "2x"
+    },
+    {
+        name: "-iphone-20@2.png",
+        size: 40,
+        type: "iPhone Notification, 7-11",
+        idiom: "iphone",
+        sizeJSON: "20x20",
+        scale: "2x"
+    },
+    {
+        name: "-20@3.png",
+        size: 60,
+        type: "iPhone Notification, 7-11",
+        idiom: "iphone",
+        sizeJSON: "20x20",
+        scale: "3x"
+    },
+    {
+        name: "-29@1.png",
+        size: 29,
+        type: "iPad Settings iOS 7 - 11",
+        idiom: "ipad",
+        sizeJSON: "29x29",
+        scale: "1x"
+    },
+    {
+        name: "-iphone-29@2.png",
         size: 58,
-        type: "Spotlight iOS 5,6; Settings iOS 5 - 8",
+        type: "Spotlight iOS 5,6; Settings iOS 5 - 11",
         idiom: "iphone",
         sizeJSON: "29x29",
         scale: "2x"
+    },
+    {
+        name: "-ipad-29@2.png",
+        size: 58,
+        type: "iPad Settings iOS 7 - 11",
+        idiom: "ipad",
+        sizeJSON: "29x29",
+        scale: "2x"
+    },
+    {
+        name: "-29@3.png",
+        size: 87,
+        type: "Spotlight iOS 5,6; Settings iOS 5 - 11",
+        idiom: "iphone",
+        sizeJSON: "29x29",
+        scale: "3x"
     },
     {
         name: "-60@2.png",
@@ -50,19 +106,27 @@ var iosAppIconExportOptions = [
         sizeJSON: "76x76",
         scale: "2x"
     },
-    // {
-    //     name: "-Small-40",
-    //     size: 40,
-    //     type: "Spotlight",
-    //     idiom: "iphone",
-    //     sizeJSON: "40x40",
-    //     scale: "1x"
-    // },
     {
-        name: "-Small-40@2.png",
+        name: "-Small-40.png",
+        size: 40,
+        type: "Spotlight",
+        idiom: "ipad",
+        sizeJSON: "40x40",
+        scale: "1x"
+    },
+    {
+        name: "-iphone-40@2.png",
         size: 80,
         type: "Spotlight on devices with retina display",
         idiom: "iphone",
+        sizeJSON: "40x40",
+        scale: "2x"
+    },
+    {
+        name: "-ipad-40@2.png",
+        size: 80,
+        type: "Spotlight on devices with retina display",
+        idiom: "ipad",
         sizeJSON: "40x40",
         scale: "2x"
     },
@@ -81,7 +145,16 @@ var iosAppIconExportOptions = [
 		idiom: "ipad",
 		sizeJSON: "83.5x83.5",
 		scale: "2x"
+    },
+    {
+        name : "-artwork.png",
+        size: 1024,
+        type: "iTunes Store",
+        idiom : "ios-marketing",
+        sizeJSON : "1024x1024",
+        scale : "1x"
     }
+    
 ];
 
 var iosImageExportOptions = [
